@@ -1,5 +1,5 @@
 #!/bin/bash
-read -p "filename:" 
+read -p "filename" 
 if [ -f "$filename" ] ; then
 > echo "le fichier '$filename' existe"
 > else
