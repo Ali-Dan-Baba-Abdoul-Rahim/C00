@@ -1,6 +1,5 @@
-#include<stdio.h>
-int main()
-{
-printf("hello, world!");
-return 0;
-}
+bin/bash
+
+# Ce script affiche "Hello, World!" à l'écran
+
+echo "Hello, World!"
