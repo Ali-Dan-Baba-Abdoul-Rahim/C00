@@ -1,9 +1,6 @@
 #!/bin/bash
-read -p "Entrez le chemin du fichier à vérifier : " filename
-if [ -f "$filename" ] ; then
-> echo "le fichier '$filename' existe."
+if [ -f "$directory" ] ; then
+> echo "le fichier '$directory' existe."
 > else
-> echo "le fichier '$filename' n'existe pas."
+> echo "le fichier '$directory' n'existe pas."
 > fi
-
-
