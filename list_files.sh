@@ -1,6 +1,4 @@
 #!/bin/bash
-# Afficher la liste des fichiers dans le répertoire courant
+# ce script affiche la liste de tous les fichiers du répertoire courant
 echo "Liste des fichiers dans le répertoire courant :"
 ls -l
-chmod +x list_files.sh
-./list_files.sh
