@@ -8,5 +8,3 @@ if [ -f "$filename" ]; then
 else
     echo "Le fichier '$filename' n'existe pas."
 fi
-chmod +x check_file_exist.sh
-./check_file_exist.sh
