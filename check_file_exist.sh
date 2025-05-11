@@ -1,6 +1,6 @@
 #!/bin/bash
 # Ce script vérifie si un fichier donné existe ou non
-read filename
+read "filename"
 # vérifie si le fichier existe 
 if [ -f "$filename" ]; then
 # demande à l'utilisateur de saisir un nom de fichier
