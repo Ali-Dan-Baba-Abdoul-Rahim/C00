@@ -1,4 +1,3 @@
-
 #!/bin/bash
 #demander a l utulisateur d entrer le nom du fichier
 read -p  "Entrez le nom du fichier a verifier :"
